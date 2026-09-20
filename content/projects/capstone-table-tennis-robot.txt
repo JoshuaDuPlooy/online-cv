@@ -1,0 +1,19 @@
+Title: Semi-Autonomous Table Tennis Training Robot
+Type: Capstone Project
+Year: 2026
+Tech: Python, YOLO, OpenCV, Kalman Filter, Gazebo, ROS 2, STM32 (C), Jetson Nano, UART, Renode
+Image: capstone-table-tennis-robot.jpg
+File: capstone-table-tennis-robot.pdf
+Featured: yes
+Order: 1
+
+Final-year BSc IT (Robotics) capstone: "Integration of Visual Response in Table Tennis Robot". Commercial ball launchers fire pre-programmed drills and ignore what the player actually does. This project closes that loop — a launcher that watches the player's shot with a camera, predicts the ball's flight and spin, simulates how a human blocker would return it, and adjusts the next launched ball accordingly. Two things I care about — engineering and table tennis — in one system.
+
+- Mathematical models for ball flight (drag, Magnus effect), racket impact dynamics and spin, plus a monocular 3-D reconstruction and Kalman-filter state estimator
+- Perception pipeline: YOLO + HSV hybrid ball detection, trajectory and spin prediction, racket-orientation solver and launcher command generation
+- Split architecture: Jetson Nano for vision and prediction, STM32 for deterministic real-time motor and servo control over a UART command protocol
+- Electrical design with a multi-rail (24 V / 5 V / 3.3 V) power architecture for high-current launcher motors alongside low-voltage control
+- Full Gazebo physics simulation of the table, launcher and ball, with a custom control panel and a 150-shot evaluation sequence
+- Hardware-in-the-loop firmware validation using Renode STM32 emulation: 100/100 UART packets processed at 0.37 ms mean latency
+- Evaluated against eight performance requirements across 600+ simulated shots; 94% of intelligent-mode returns landed in target
+- Group project of four; report ran to 150+ pages covering literature review, modelling, design, testing and evaluation

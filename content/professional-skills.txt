@@ -1,0 +1,58 @@
+# "## Category" headings, then "Skill | level" lines (level 1-5).
+# A skill without a level is shown as a tag instead of a rating bar.
+
+## Programming
+Python | 4
+C / C++ | 4
+Java | 3
+JavaScript | 3
+MATLAB | 4
+C#
+R
+SQL
+Assembly
+Git
+
+## Embedded & PLC
+PLC Systems | 4
+Embedded Design | 4
+Arduino
+STM32 / ARM Cortex
+GPIO, Timers, ADC/DAC
+SPI / I2C / UART
+Flash & register control
+FPGA
+Relay Ladder Logic
+
+## Web & Databases
+React.js | 3
+Node.js & Express.js | 3
+MySQL | 3
+SQLite | 3
+MongoDB | 3
+HTML / CSS
+PHP
+jQuery
+
+## Electrical & Electronics
+Circuit Design & LTspice | 4
+PCB Design & KiCAD | 3
+Op-amps, BJTs & MOSFETs
+Electrical drive systems
+Digital logic
+
+## Mechanical Engineering
+CAD — AutoCAD & Inventor | 3
+HVAC & Motor/Bearing Sizing | 3
+Machine & systems design
+Thermodynamics & fluid mechanics
+Heat transfer
+Vibrations & noise
+Mathematical modelling
+
+## Robotics, Control & Data
+Mechatronic Integration | 4
+Control Systems | 4
+IoT Applications | 3
+Simulink
+NumPy / Pandas / Matplotlib

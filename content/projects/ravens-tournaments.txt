@@ -1,0 +1,17 @@
+Title: Ravens Tournament Manager v1.0
+Type: Personal Project
+Year: 2026
+Tech: JavaScript, HTML/CSS, Node.js, Express, GitHub Pages, GitHub Actions
+Link: https://github.com/JoshuaDuPlooy/tournament-manager
+Demo: https://joshuaduplooy.github.io/tournament-manager/savets-2026/
+Image: tournament-manager-v1.png
+Featured: yes
+Order: 2
+
+A tournament management system I built for my role as Tournament Director at Ravens Table Tennis Club. Version 1.0 is live and running real events — the public site below is the SAVETTS 2026 tournament with entries, group draws, knockout brackets, a table-by-table schedule and medals.
+
+- Multi-tournament architecture: each event is a self-contained folder with its own config, data and site, so adding a tournament is a copy-and-edit, not a rewrite
+- Local control panel (Express JSON API + admin UI) for managing tournament info, entries, groups, knockouts and scheduling
+- Public static site deployed automatically to GitHub Pages via GitHub Actions
+- PDF generators for scorecards, brackets and schedules, plus Excel import of entries
+- Version 2.0 — a full rebuild in Next.js — is under construction

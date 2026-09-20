@@ -1,0 +1,15 @@
+Title: Arduino Security & Voting Systems
+Type: Varsity Project
+Year: 2025
+Tech: Arduino Uno, C++, EEPROM, Servo, 555 Timer, Tinkercad
+Image: arduino-alarm-system.jpg
+File: digital-electronics-microcontrollers.pdf
+Order: 4
+
+Individual project for Digital Electronics & Microcontrollers (ITCMA2) — a set of embedded builds on the Arduino Uno, each with a full component list, schematic and sketch.
+
+- Documented every pin on the Arduino Uno (GPIO, ADC, I2C, SPI, UART) and drew the board's power tree with all voltage levels
+- Drawer alarm system: pull-down button sensing with an LED breach indicator
+- Upgraded alarm with a 4-digit passcode stored in EEPROM, a buzzer that sounds until the correct button combination is entered, and a servo that unlocks only on a valid code
+- Smart voting prototype: two-button input with logic-gate validation, truth table, debounced Button class with edge callbacks, and Serial Monitor vote logging
+- Diagnosed faults in an astable 555 timer circuit (swapped RC values, floating threshold pin) and reproduced its 1 Hz behaviour in a non-blocking Arduino sketch

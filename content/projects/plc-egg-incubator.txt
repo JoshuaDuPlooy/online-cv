@@ -1,0 +1,15 @@
+Title: PLC Egg Incubator & PWM Heater Control
+Type: Varsity Project
+Year: 2025
+Tech: PLC, Ladder Logic, CODESYS, HMI, Circuit Design
+Image: plc-egg-incubator.jpg
+File: plc-programming.pdf
+Order: 3
+
+Individual project for PLC Programming (ITLCA3) — ladder-logic control programs written and simulated in CODESYS, with the supporting electrical design.
+
+- PWM control of a 300 W / 220 V cartridge heater in ladder logic: carrier generation with timers and up/down counters, comparator output, and a relay driven through an NPN transistor stage
+- Sized the switching circuit from first principles — heater resistance and full-load current, transistor and relay selection with datasheet specs
+- Egg incubator controller: start/stop latch with emergency stop, real-time-clock based cycle tracking (days / hours / minutes / seconds), fan, heat and humidifier outputs, cycle-end alarm and manual time adjustment
+- HMI visualisation for the incubator with power, e-stop, reset, time set and humidity / temperature setpoints
+- Thermistor temperature measurement in ladder logic using the Beta-parameter equation, converting a voltage-divider reading to °C
