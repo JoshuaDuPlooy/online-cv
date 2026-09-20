@@ -25,4 +25,9 @@ See [`content/README.md`](content/README.md). In short:
 
 ## Deploying
 
-`npm run build` produces a fully static site. Deploy to Vercel, Netlify or any static host.
+`npm run build` produces a fully static site.
+
+**Vercel (recommended):** import this repository at https://vercel.com/new — it is
+detected as a Next.js project with no extra configuration. Every push to `main`
+redeploys automatically. Content edits are just commits, so updating the CV is:
+edit a `.txt` file → commit → push.
