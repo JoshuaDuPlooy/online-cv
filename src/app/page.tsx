@@ -115,7 +115,7 @@ export default function Home() {
           id="portfolio"
           eyebrow="Portfolio"
           title="Projects & varsity work"
-          intro="A selection of academic and personal projects. Click a card for the full write-up."
+          intro="A selection of academic and personal projects. Click a card for a brief summary or the full project."
         >
           <Portfolio projects={projects} />
         </Section>

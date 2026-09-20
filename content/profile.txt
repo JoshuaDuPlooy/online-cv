@@ -1,6 +1,6 @@
 Name: Joshua Du Plooy
 Title: BSc IT (Robotics) Graduate · BSc(Hons) Data Science Student
-Tagline: Hands-on across mechanical, electrical and software engineering — PLC programming, embedded systems, automation and circuit design. I like building smart, integrated systems that solve real-world problems.
+Tagline: Hands-on across mechanical, electrical and software engineering: PLC programming, embedded systems, automation and circuit design. I like building smart, integrated systems that solve real-world problems.
 Location: Gordon's Bay, Western Cape, South Africa
 Email: joshuaduplooy1997@gmail.com
 Phone: +27 81 825 0220
@@ -8,6 +8,6 @@ LinkedIn: https://www.linkedin.com/in/joshua-du-plooy-86535a138
 GitHub: https://github.com/JoshuaDuPlooy
 Photo: profile.jpg
 CV: cv.pdf
-Availability: Immediate — open to travel and relocation
+Availability: Immediate, open to travel and relocation
 Languages: English (fluent), Afrikaans (intermediate)
 Interests: Robotics, automation projects, table tennis (former national champion), gym, gaming, anime & manga, travel
