@@ -1,0 +1,14 @@
+Title: Honours Project Manager
+Type: Personal Project
+Year: 2026
+Tech: Python, PySide6 (Qt), LaTeX, Git, Overleaf API, Windows/Linux packaging
+Link: https://github.com/JoshuaDuPlooy/ProjectManager
+Order: 3
+
+A desktop app I built to run my own Honours coursework. Every assignment follows the same structure — report, slides, scripts, data, submission — so the app creates each new project from a template and then drives all of its tooling from one window: LaTeX builds, asset bundling, Overleaf sync and git.
+
+- Qt (PySide6) interface: project list with health status, file tree with configurable openers and runners, action panel, and a live output console that queues commands and can cancel them
+- "Problems" panel that checks each project continuously — missing folders, outdated tooling, placeholder details, broken or stale asset references, LaTeX build errors, undefined citations, Python syntax errors, invalid notebooks and git state — and jumps to the offending file and line
+- Two-way Overleaf sync: push the local report, pull collaborator edits onto a review branch, with the API token stored in Windows Credential Manager rather than on disk
+- Form-driven editing of the LaTeX report configuration (title, module, lecturer, group members, participation, citation style) that preserves the file's comments and layout
+- Windows and Ubuntu installers that build an isolated virtual environment, create desktop and Start Menu shortcuts, and a built-in self-updater that installs new versions with a fast-forward git pull

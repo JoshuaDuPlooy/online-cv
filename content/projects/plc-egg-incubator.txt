@@ -4,7 +4,7 @@ Year: 2025
 Tech: PLC, Ladder Logic, CODESYS, HMI, Circuit Design
 Image: plc-egg-incubator.jpg
 File: plc-programming.pdf
-Order: 3
+Order: 4
 
 Individual project for PLC Programming (ITLCA3) — ladder-logic control programs written and simulated in CODESYS, with the supporting electrical design.
 

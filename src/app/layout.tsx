@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { getEntry } from "@/lib/content";
@@ -35,6 +36,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* Marks JS as available before first paint so .reveal only hides content when it can reveal it */}
         <Script id="js-flag" strategy="beforeInteractive">{`document.documentElement.classList.add("js")`}</Script>
         {children}
+        {/* Vercel Web Analytics — page views and visitor counts, no cookies */}
+        <Analytics />
       </body>
     </html>
   );

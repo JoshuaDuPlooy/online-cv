@@ -4,7 +4,7 @@ Year: 2025
 Tech: Arduino Uno, C++, EEPROM, Servo, 555 Timer, Tinkercad
 Image: arduino-alarm-system.jpg
 File: digital-electronics-microcontrollers.pdf
-Order: 4
+Order: 5
 
 Individual project for Digital Electronics & Microcontrollers (ITCMA2) — a set of embedded builds on the Arduino Uno, each with a full component list, schematic and sketch.
 

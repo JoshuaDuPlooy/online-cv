@@ -1,17 +1,19 @@
-Title: Ravens Tournament Manager v1.0
+Title: Ravens Tournament Manager
 Type: Personal Project
 Year: 2026
-Tech: JavaScript, HTML/CSS, Node.js, Express, GitHub Pages, GitHub Actions
-Link: https://github.com/JoshuaDuPlooy/tournament-manager
+Tech: Next.js, React, Mongoose, MongoDB Atlas, Tailwind CSS, Puppeteer, ExcelJS, Vercel
+Link: https://github.com/JoshuaDuPlooy/tournament-manager-mongo
 Demo: https://joshuaduplooy.github.io/tournament-manager/savets-2026/
 Image: tournament-manager-v1.png
 Featured: yes
 Order: 2
 
-A tournament management system I built for my role as Tournament Director at Ravens Table Tennis Club. Version 1.0 is live and running real events — the public site below is the SAVETTS 2026 tournament with entries, group draws, knockout brackets, a table-by-table schedule and medals.
+A tournament management system I built for my role as Tournament Director at Ravens Table Tennis Club. It runs real events end to end: entries, group draws, knockout brackets, table-by-table scheduling, live results and medals.
 
-- Multi-tournament architecture: each event is a self-contained folder with its own config, data and site, so adding a tournament is a copy-and-edit, not a rewrite
-- Local control panel (Express JSON API + admin UI) for managing tournament info, entries, groups, knockouts and scheduling
-- Public static site deployed automatically to GitHub Pages via GitHub Actions
-- PDF generators for scorecards, brackets and schedules, plus Excel import of entries
-- Version 2.0 — a full rebuild in Next.js — is under construction
+Version 2.0 is a full rebuild in Next.js, replacing the static version 1.0 that is still published on GitHub Pages (linked below). It ran the Cape Town Open 2026.
+
+- Next.js App Router with a signed-in control panel (JWT sessions via jose, bcrypt password hashing) and a separate public site for players and spectators
+- MongoDB with Mongoose models for tournaments, events, entries, groups, knockouts and schedules; hosted on MongoDB Atlas
+- Per-tournament public site themes, so a major event can get its own design while sharing the same pages
+- Server-side PDF generation for scorecards, brackets and schedules with Puppeteer, and Excel entry import/export with ExcelJS
+- Version 1.0: a multi-tournament static site generator with an Express control panel, auto-deployed to GitHub Pages by GitHub Actions
