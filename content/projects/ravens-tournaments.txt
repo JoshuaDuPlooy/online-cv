@@ -3,14 +3,14 @@ Type: Personal Project
 Year: 2026
 Tech: Next.js, React, Mongoose, MongoDB Atlas, Tailwind CSS, Puppeteer, ExcelJS, Vercel
 Link: https://github.com/JoshuaDuPlooy/tournament-manager-mongo
-Demo: https://joshuaduplooy.github.io/tournament-manager/savets-2026/
-Image: tournament-manager-v1.png
+Demo: https://tournament-manager-mongo.vercel.app/t/cape-town-open-2026/knockouts/mens
+Image: tournament-manager-v2.jpg
 Featured: yes
 Order: 2
 
 A tournament management system I built for my role as Tournament Director at Ravens Table Tennis Club. It runs real events end to end: entries, group draws, knockout brackets, table-by-table scheduling, live results and medals.
 
-Version 2.0 is a full rebuild in Next.js, replacing the static version 1.0 that is still published on GitHub Pages (linked below). It ran the Cape Town Open 2026.
+Version 2.0 is a full rebuild in Next.js, replacing the static version 1.0 that is still published on GitHub Pages. It ran the Cape Town Open 2026 — the live site below is that tournament's men's draw, in its own event theme.
 
 - Next.js App Router with a signed-in control panel (JWT sessions via jose, bcrypt password hashing) and a separate public site for players and spectators
 - MongoDB with Mongoose models for tournaments, events, entries, groups, knockouts and schedules; hosted on MongoDB Atlas
